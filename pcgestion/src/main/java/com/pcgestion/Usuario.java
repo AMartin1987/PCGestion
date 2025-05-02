@@ -4,6 +4,7 @@ package com.pcgestion;
  * Clase base para representar un usuario del sistema.
  * Puede ser un Cliente, Técnico o Administrador.
  */
+
 public class Usuario {
     private int id;
     private String nombre;
