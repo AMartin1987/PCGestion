@@ -1,0 +1,50 @@
+\doxysection{com.\+pcgestion.\+Calculadora\+IVA Class Reference}
+\hypertarget{classcom_1_1pcgestion_1_1_calculadora_i_v_a}{}\label{classcom_1_1pcgestion_1_1_calculadora_i_v_a}\index{com.pcgestion.CalculadoraIVA@{com.pcgestion.CalculadoraIVA}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{classcom_1_1pcgestion_1_1_calculadora_i_v_a_a01f21195912e145c1cf1ddb1876bf82f}{calcular\+Precio\+Con\+IVA}} (double base)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+La clase {\ttfamily Calculadora\+IVA} proporciona una funcionalidad básica para calcular el precio final de un producto incluyendo el IVA (Impuesto al Valor Agregado).
+
+Actualmente, el valor del IVA está fijado en 21\%.
+
+Ejemplo de uso\+:
+
+
+\begin{DoxyPre}{\ttfamily \newlineCalculadoraIVA calculadora = new CalculadoraIVA();\newlinedouble precioFinal = calculadora.calcularPrecioConIVA(100.0); // Devuelve 121.0\newline}\end{DoxyPre}
+
+
+\begin{DoxyAuthor}{Author}
+Alejandra Martin 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1pcgestion_1_1_calculadora_i_v_a_a01f21195912e145c1cf1ddb1876bf82f}\index{com.pcgestion.CalculadoraIVA@{com.pcgestion.CalculadoraIVA}!calcularPrecioConIVA@{calcularPrecioConIVA}}
+\index{calcularPrecioConIVA@{calcularPrecioConIVA}!com.pcgestion.CalculadoraIVA@{com.pcgestion.CalculadoraIVA}}
+\doxysubsubsection{\texorpdfstring{calcularPrecioConIVA()}{calcularPrecioConIVA()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_calculadora_i_v_a_a01f21195912e145c1cf1ddb1876bf82f} 
+double com.\+pcgestion.\+Calculadora\+IVA.\+calcular\+Precio\+Con\+IVA (\begin{DoxyParamCaption}\item[{double}]{base}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Calcula el precio total de un producto sumándole el IVA al precio base.
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & el precio base del producto (sin impuestos) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+el precio total incluyendo el IVA 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/pcgestion/Calculadora\+IVA.\+java\end{DoxyCompactItemize}

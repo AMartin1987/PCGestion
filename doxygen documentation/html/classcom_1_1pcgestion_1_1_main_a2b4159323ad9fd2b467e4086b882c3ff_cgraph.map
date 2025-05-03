@@ -1,0 +1,7 @@
+<map id="com.pcgestion.Main.main" name="com.pcgestion.Main.main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,42,176,68"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1pcgestion_1_1_cliente.html#aa62a628af877732c13af3eaa6d04ea6c" title=" " alt="" coords="233,5,440,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,42,217,37,218,42,177,47"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1pcgestion_1_1_reparacion.html#aca12aa717416faa495c9d51ce5560f31" title=" " alt="" coords="224,70,449,96"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,62,209,66,208,71,176,67"/>
+</map>

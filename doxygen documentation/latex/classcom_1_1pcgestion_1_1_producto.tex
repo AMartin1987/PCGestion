@@ -1,0 +1,117 @@
+\doxysection{com.\+pcgestion.\+Producto Class Reference}
+\hypertarget{classcom_1_1pcgestion_1_1_producto}{}\label{classcom_1_1pcgestion_1_1_producto}\index{com.pcgestion.Producto@{com.pcgestion.Producto}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1pcgestion_1_1_producto_ac302dd3f17a39b267d627c7ef07dc290}{Producto}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1pcgestion_1_1_producto_a94b839d061a07f1d114e81551df3f27b}{Producto}} (int id, String nombre, String descripcion, float precio, int stock)
+\item 
+String \mbox{\hyperlink{classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b}{get\+Nombre}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1pcgestion_1_1_producto_aa4e5e0f83d186ff4d8c33e79d0934c57}{set\+Nombre}} (String nombre)
+\item 
+void \mbox{\hyperlink{classcom_1_1pcgestion_1_1_producto_a579a7b20fa09881051392eb5ce1e9ad8}{actualizar\+Stock}} (int cantidad)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+La clase {\ttfamily Producto} representa un producto dentro del sistema de gestión PCGestión.
+
+Incluye información básica como identificador, nombre, descripción, precio y stock. Permite actualizar el stock disponible del producto.
+
+Ejemplo de uso\+:
+
+
+\begin{DoxyPre}{\ttfamily \newlineProducto producto = new Producto(1, "{}Teclado"{}, "{}Teclado mecánico"{}, 45.99f, 10);\newlineproducto.actualizarStock(-\/2);\newlineSystem.out.println(producto.getNombre());\newline}\end{DoxyPre}
+
+
+\begin{DoxyAuthor}{Author}
+Alejandra Martin 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1pcgestion_1_1_producto_ac302dd3f17a39b267d627c7ef07dc290}\index{com.pcgestion.Producto@{com.pcgestion.Producto}!Producto@{Producto}}
+\index{Producto@{Producto}!com.pcgestion.Producto@{com.pcgestion.Producto}}
+\doxysubsubsection{\texorpdfstring{Producto()}{Producto()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_producto_ac302dd3f17a39b267d627c7ef07dc290} 
+com.\+pcgestion.\+Producto.\+Producto (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor por defecto. Permite crear un producto sin parámetros. \Hypertarget{classcom_1_1pcgestion_1_1_producto_a94b839d061a07f1d114e81551df3f27b}\index{com.pcgestion.Producto@{com.pcgestion.Producto}!Producto@{Producto}}
+\index{Producto@{Producto}!com.pcgestion.Producto@{com.pcgestion.Producto}}
+\doxysubsubsection{\texorpdfstring{Producto()}{Producto()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_producto_a94b839d061a07f1d114e81551df3f27b} 
+com.\+pcgestion.\+Producto.\+Producto (\begin{DoxyParamCaption}\item[{int}]{id}{, }\item[{String}]{nombre}{, }\item[{String}]{descripcion}{, }\item[{float}]{precio}{, }\item[{int}]{stock}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Constructor completo que inicializa todos los atributos del producto.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & el identificador del producto \\
+\hline
+{\em nombre} & el nombre del producto \\
+\hline
+{\em descripcion} & la descripción del producto \\
+\hline
+{\em precio} & el precio del producto \\
+\hline
+{\em stock} & la cantidad disponible en stock \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1pcgestion_1_1_producto_a579a7b20fa09881051392eb5ce1e9ad8}\index{com.pcgestion.Producto@{com.pcgestion.Producto}!actualizarStock@{actualizarStock}}
+\index{actualizarStock@{actualizarStock}!com.pcgestion.Producto@{com.pcgestion.Producto}}
+\doxysubsubsection{\texorpdfstring{actualizarStock()}{actualizarStock()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_producto_a579a7b20fa09881051392eb5ce1e9ad8} 
+void com.\+pcgestion.\+Producto.\+actualizar\+Stock (\begin{DoxyParamCaption}\item[{int}]{cantidad}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Actualiza la cantidad de stock del producto. Si el stock resultante es negativo, se ajusta a 0.
+
+
+\begin{DoxyParams}{Parameters}
+{\em cantidad} & la cantidad a sumar (puede ser negativa para restar stock) \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b}\index{com.pcgestion.Producto@{com.pcgestion.Producto}!getNombre@{getNombre}}
+\index{getNombre@{getNombre}!com.pcgestion.Producto@{com.pcgestion.Producto}}
+\doxysubsubsection{\texorpdfstring{getNombre()}{getNombre()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b} 
+String com.\+pcgestion.\+Producto.\+get\+Nombre (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene el nombre del producto.
+
+\begin{DoxyReturn}{Returns}
+el nombre del producto 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1pcgestion_1_1_producto_aa4e5e0f83d186ff4d8c33e79d0934c57}\index{com.pcgestion.Producto@{com.pcgestion.Producto}!setNombre@{setNombre}}
+\index{setNombre@{setNombre}!com.pcgestion.Producto@{com.pcgestion.Producto}}
+\doxysubsubsection{\texorpdfstring{setNombre()}{setNombre()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_producto_aa4e5e0f83d186ff4d8c33e79d0934c57} 
+void com.\+pcgestion.\+Producto.\+set\+Nombre (\begin{DoxyParamCaption}\item[{String}]{nombre}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Establece el nombre del producto.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & el nuevo nombre del producto \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/pcgestion/Producto.\+java\end{DoxyCompactItemize}

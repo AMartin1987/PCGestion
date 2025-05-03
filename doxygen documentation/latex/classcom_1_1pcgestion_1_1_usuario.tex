@@ -1,0 +1,54 @@
+\doxysection{com.\+pcgestion.\+Usuario Class Reference}
+\hypertarget{classcom_1_1pcgestion_1_1_usuario}{}\label{classcom_1_1pcgestion_1_1_usuario}\index{com.pcgestion.Usuario@{com.pcgestion.Usuario}}
+
+
+Inheritance diagram for com.\+pcgestion.\+Usuario\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1pcgestion_1_1_usuario__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classcom_1_1pcgestion_1_1_usuario_a543f55e08281b7e5ddb10a953428a03a}\label{classcom_1_1pcgestion_1_1_usuario_a543f55e08281b7e5ddb10a953428a03a} 
+{\bfseries Usuario} (String nombre, String email)
+\item 
+\Hypertarget{classcom_1_1pcgestion_1_1_usuario_a0d2571ddc0da361dd1ef35f9eb16133b}\label{classcom_1_1pcgestion_1_1_usuario_a0d2571ddc0da361dd1ef35f9eb16133b} 
+String {\bfseries get\+Nombre} ()
+\item 
+\Hypertarget{classcom_1_1pcgestion_1_1_usuario_a8aa5f61918f13d91cc71b944c3824efa}\label{classcom_1_1pcgestion_1_1_usuario_a8aa5f61918f13d91cc71b944c3824efa} 
+String {\bfseries get\+Email} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1pcgestion_1_1_usuario_a67271cefc23ee1509edd385601a0422d}{iniciar\+Sesion}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1pcgestion_1_1_usuario_ad82f19771beb1873150701b0566bea07}{cerrar\+Sesion}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Clase base para representar un usuario del sistema. Puede ser un \doxylink{classcom_1_1pcgestion_1_1_cliente}{Cliente}, Técnico o \doxylink{classcom_1_1pcgestion_1_1_administrador}{Administrador}. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1pcgestion_1_1_usuario_ad82f19771beb1873150701b0566bea07}\index{com.pcgestion.Usuario@{com.pcgestion.Usuario}!cerrarSesion@{cerrarSesion}}
+\index{cerrarSesion@{cerrarSesion}!com.pcgestion.Usuario@{com.pcgestion.Usuario}}
+\doxysubsubsection{\texorpdfstring{cerrarSesion()}{cerrarSesion()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_usuario_ad82f19771beb1873150701b0566bea07} 
+void com.\+pcgestion.\+Usuario.\+cerrar\+Sesion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Cierra la sesión del usuario. \Hypertarget{classcom_1_1pcgestion_1_1_usuario_a67271cefc23ee1509edd385601a0422d}\index{com.pcgestion.Usuario@{com.pcgestion.Usuario}!iniciarSesion@{iniciarSesion}}
+\index{iniciarSesion@{iniciarSesion}!com.pcgestion.Usuario@{com.pcgestion.Usuario}}
+\doxysubsubsection{\texorpdfstring{iniciarSesion()}{iniciarSesion()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_usuario_a67271cefc23ee1509edd385601a0422d} 
+boolean com.\+pcgestion.\+Usuario.\+iniciar\+Sesion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Inicia sesión del usuario. \begin{DoxyReturn}{Returns}
+true si las credenciales son válidas, false en caso contrario. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/pcgestion/Usuario.\+java\end{DoxyCompactItemize}

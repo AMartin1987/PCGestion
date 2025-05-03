@@ -1,0 +1,161 @@
+\doxysection{com.\+pcgestion.\+Cliente Class Reference}
+\hypertarget{classcom_1_1pcgestion_1_1_cliente}{}\label{classcom_1_1pcgestion_1_1_cliente}\index{com.pcgestion.Cliente@{com.pcgestion.Cliente}}
+
+
+Inheritance diagram for com.\+pcgestion.\+Cliente\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{classcom_1_1pcgestion_1_1_cliente__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for com.\+pcgestion.\+Cliente\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=197pt]{classcom_1_1pcgestion_1_1_cliente__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcom_1_1pcgestion_1_1_cliente_ab7308ce16d55c65f05d2f95ba47bbf3c}{Cliente}} (String nombre, String email, String direccion)
+\item 
+String \mbox{\hyperlink{classcom_1_1pcgestion_1_1_cliente_a7a604281c91842dbea47d43657ca40c5}{get\+Direccion}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1pcgestion_1_1_cliente_a4b81ed6d70325b1d5bafe8aee912e914}{set\+Direccion}} (String direccion)
+\item 
+void \mbox{\hyperlink{classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c}{solicitar\+Devolucion}} (\mbox{\hyperlink{classcom_1_1pcgestion_1_1_producto}{Producto}} producto)
+\item 
+void \mbox{\hyperlink{classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c}{contratar\+Reparacion}} (\mbox{\hyperlink{classcom_1_1pcgestion_1_1_reparacion}{Reparacion}} reparacion)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classcom_1_1pcgestion_1_1_usuario}{com.\+pcgestion.\+Usuario}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries Usuario} (String nombre, String email)
+\item 
+String {\bfseries get\+Nombre} ()
+\item 
+String {\bfseries get\+Email} ()
+\item 
+boolean \mbox{\hyperlink{classcom_1_1pcgestion_1_1_usuario_a67271cefc23ee1509edd385601a0422d}{iniciar\+Sesion}} ()
+\item 
+void \mbox{\hyperlink{classcom_1_1pcgestion_1_1_usuario_ad82f19771beb1873150701b0566bea07}{cerrar\+Sesion}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+La clase {\ttfamily Cliente} representa a un cliente de la aplicación PCGestión, el cual hereda de {\ttfamily \doxylink{classcom_1_1pcgestion_1_1_usuario}{Usuario}} y tiene funcionalidades específicas como solicitar devoluciones y contratar reparaciones.
+
+Además de los atributos heredados (nombre y email), un cliente tiene una dirección de entrega o contacto.
+
+Ejemplo de uso\+:
+
+
+\begin{DoxyPre}{\ttfamily \newlineCliente cliente = new Cliente("{}Ana"{}, "{}ana@mail.com"{}, "{}Calle Falsa 123"{});\newlinecliente.solicitarDevolucion(new Producto("{}Mouse"{}));\newline}\end{DoxyPre}
+
+
+\begin{DoxyAuthor}{Author}
+Alejandra Martin 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classcom_1_1pcgestion_1_1_cliente_ab7308ce16d55c65f05d2f95ba47bbf3c}\index{com.pcgestion.Cliente@{com.pcgestion.Cliente}!Cliente@{Cliente}}
+\index{Cliente@{Cliente}!com.pcgestion.Cliente@{com.pcgestion.Cliente}}
+\doxysubsubsection{\texorpdfstring{Cliente()}{Cliente()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_cliente_ab7308ce16d55c65f05d2f95ba47bbf3c} 
+com.\+pcgestion.\+Cliente.\+Cliente (\begin{DoxyParamCaption}\item[{String}]{nombre}{, }\item[{String}]{email}{, }\item[{String}]{direccion}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Crea una nueva instancia de {\ttfamily Cliente} con los datos proporcionados.
+
+
+\begin{DoxyParams}{Parameters}
+{\em nombre} & el nombre del cliente \\
+\hline
+{\em email} & el correo electrónico del cliente \\
+\hline
+{\em direccion} & la dirección del cliente \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c}\index{com.pcgestion.Cliente@{com.pcgestion.Cliente}!contratarReparacion@{contratarReparacion}}
+\index{contratarReparacion@{contratarReparacion}!com.pcgestion.Cliente@{com.pcgestion.Cliente}}
+\doxysubsubsection{\texorpdfstring{contratarReparacion()}{contratarReparacion()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c} 
+void com.\+pcgestion.\+Cliente.\+contratar\+Reparacion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1pcgestion_1_1_reparacion}{Reparacion}}}]{reparacion}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Contrata una reparación.
+
+
+\begin{DoxyParams}{Parameters}
+{\em reparacion} & la reparación que se desea contratar \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classcom_1_1pcgestion_1_1_cliente_a7a604281c91842dbea47d43657ca40c5}\index{com.pcgestion.Cliente@{com.pcgestion.Cliente}!getDireccion@{getDireccion}}
+\index{getDireccion@{getDireccion}!com.pcgestion.Cliente@{com.pcgestion.Cliente}}
+\doxysubsubsection{\texorpdfstring{getDireccion()}{getDireccion()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_cliente_a7a604281c91842dbea47d43657ca40c5} 
+String com.\+pcgestion.\+Cliente.\+get\+Direccion (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtiene la dirección actual del cliente.
+
+\begin{DoxyReturn}{Returns}
+la dirección del cliente 
+\end{DoxyReturn}
+\Hypertarget{classcom_1_1pcgestion_1_1_cliente_a4b81ed6d70325b1d5bafe8aee912e914}\index{com.pcgestion.Cliente@{com.pcgestion.Cliente}!setDireccion@{setDireccion}}
+\index{setDireccion@{setDireccion}!com.pcgestion.Cliente@{com.pcgestion.Cliente}}
+\doxysubsubsection{\texorpdfstring{setDireccion()}{setDireccion()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_cliente_a4b81ed6d70325b1d5bafe8aee912e914} 
+void com.\+pcgestion.\+Cliente.\+set\+Direccion (\begin{DoxyParamCaption}\item[{String}]{direccion}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Establece una nueva dirección para el cliente.
+
+
+\begin{DoxyParams}{Parameters}
+{\em direccion} & la nueva dirección del cliente \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c}\index{com.pcgestion.Cliente@{com.pcgestion.Cliente}!solicitarDevolucion@{solicitarDevolucion}}
+\index{solicitarDevolucion@{solicitarDevolucion}!com.pcgestion.Cliente@{com.pcgestion.Cliente}}
+\doxysubsubsection{\texorpdfstring{solicitarDevolucion()}{solicitarDevolucion()}}
+{\footnotesize\ttfamily \label{classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c} 
+void com.\+pcgestion.\+Cliente.\+solicitar\+Devolucion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classcom_1_1pcgestion_1_1_producto}{Producto}}}]{producto}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Solicita la devolución de un producto.
+
+
+\begin{DoxyParams}{Parameters}
+{\em producto} & el producto que se desea devolver \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/pcgestion/Cliente.\+java\end{DoxyCompactItemize}

@@ -1,0 +1,71 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Administrador Class Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Member Function Documentation}{5}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}autorizarDevolucion()}{5}{subsubsection.3.1.2.1}%
+\contentsline {section}{\numberline {3.2}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Calculadora\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IVA Class Reference}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Detailed Description}{6}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Member Function Documentation}{6}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}calcularPrecioConIVA()}{6}{subsubsection.3.2.2.1}%
+\contentsline {section}{\numberline {3.3}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente Class Reference}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Detailed Description}{7}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Constructor \& Destructor Documentation}{8}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Cliente()}{8}{subsubsection.3.3.2.1}%
+\contentsline {subsection}{\numberline {3.3.3}Member Function Documentation}{8}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.1}contratarReparacion()}{8}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.3.2}getDireccion()}{8}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3.3}setDireccion()}{8}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3.4}solicitarDevolucion()}{9}{subsubsection.3.3.3.4}%
+\contentsline {section}{\numberline {3.4}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cliente\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{9}{section.3.4}%
+\contentsline {section}{\numberline {3.5}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Detalle\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pedido Class Reference}{9}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Detailed Description}{9}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Devolucion Class Reference}{10}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Detailed Description}{10}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Member Function Documentation}{10}{subsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.2.1}procesar()}{10}{subsubsection.3.6.2.1}%
+\contentsline {subsubsection}{\numberline {3.6.2.2}solicitar()}{10}{subsubsection.3.6.2.2}%
+\contentsline {section}{\numberline {3.7}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Inventario Class Reference}{10}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Detailed Description}{11}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Constructor \& Destructor Documentation}{11}{subsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.2.1}Inventario()}{11}{subsubsection.3.7.2.1}%
+\contentsline {subsection}{\numberline {3.7.3}Member Function Documentation}{11}{subsection.3.7.3}%
+\contentsline {subsubsection}{\numberline {3.7.3.1}buscarProductoPorNombre()}{11}{subsubsection.3.7.3.1}%
+\contentsline {subsubsection}{\numberline {3.7.3.2}listarProductos()}{12}{subsubsection.3.7.3.2}%
+\contentsline {section}{\numberline {3.8}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Main Class Reference}{12}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Detailed Description}{12}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Member Function Documentation}{12}{subsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.2.1}main()}{12}{subsubsection.3.8.2.1}%
+\contentsline {section}{\numberline {3.9}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PCGestion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cucumber\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{13}{section.3.9}%
+\contentsline {section}{\numberline {3.10}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}PCGestion\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Integration\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test Class Reference}{13}{section.3.10}%
+\contentsline {section}{\numberline {3.11}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Pedido Class Reference}{13}{section.3.11}%
+\contentsline {subsection}{\numberline {3.11.1}Detailed Description}{13}{subsection.3.11.1}%
+\contentsline {subsection}{\numberline {3.11.2}Member Function Documentation}{14}{subsection.3.11.2}%
+\contentsline {subsubsection}{\numberline {3.11.2.1}cancelar()}{14}{subsubsection.3.11.2.1}%
+\contentsline {subsubsection}{\numberline {3.11.2.2}confirmar()}{14}{subsubsection.3.11.2.2}%
+\contentsline {section}{\numberline {3.12}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Producto Class Reference}{14}{section.3.12}%
+\contentsline {subsection}{\numberline {3.12.1}Detailed Description}{14}{subsection.3.12.1}%
+\contentsline {subsection}{\numberline {3.12.2}Constructor \& Destructor Documentation}{15}{subsection.3.12.2}%
+\contentsline {subsubsection}{\numberline {3.12.2.1}Producto()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{15}{subsubsection.3.12.2.1}%
+\contentsline {subsubsection}{\numberline {3.12.2.2}Producto()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{15}{subsubsection.3.12.2.2}%
+\contentsline {subsection}{\numberline {3.12.3}Member Function Documentation}{15}{subsection.3.12.3}%
+\contentsline {subsubsection}{\numberline {3.12.3.1}actualizarStock()}{15}{subsubsection.3.12.3.1}%
+\contentsline {subsubsection}{\numberline {3.12.3.2}getNombre()}{15}{subsubsection.3.12.3.2}%
+\contentsline {subsubsection}{\numberline {3.12.3.3}setNombre()}{16}{subsubsection.3.12.3.3}%
+\contentsline {section}{\numberline {3.13}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Reparacion Class Reference}{16}{section.3.13}%
+\contentsline {subsection}{\numberline {3.13.1}Detailed Description}{16}{subsection.3.13.1}%
+\contentsline {subsection}{\numberline {3.13.2}Member Function Documentation}{16}{subsection.3.13.2}%
+\contentsline {subsubsection}{\numberline {3.13.2.1}asignarTecnico()}{16}{subsubsection.3.13.2.1}%
+\contentsline {subsubsection}{\numberline {3.13.2.2}finalizar()}{16}{subsubsection.3.13.2.2}%
+\contentsline {section}{\numberline {3.14}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}testdefs.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Step\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Definitions Class Reference}{17}{section.3.14}%
+\contentsline {section}{\numberline {3.15}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Tecnico Class Reference}{17}{section.3.15}%
+\contentsline {subsection}{\numberline {3.15.1}Detailed Description}{17}{subsection.3.15.1}%
+\contentsline {section}{\numberline {3.16}com.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}pcgestion.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Usuario Class Reference}{18}{section.3.16}%
+\contentsline {subsection}{\numberline {3.16.1}Detailed Description}{18}{subsection.3.16.1}%
+\contentsline {subsection}{\numberline {3.16.2}Member Function Documentation}{18}{subsection.3.16.2}%
+\contentsline {subsubsection}{\numberline {3.16.2.1}cerrarSesion()}{18}{subsubsection.3.16.2.1}%
+\contentsline {subsubsection}{\numberline {3.16.2.2}iniciarSesion()}{18}{subsubsection.3.16.2.2}%
