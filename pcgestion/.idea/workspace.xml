@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="879c8920-c793-4b95-b094-d376b89035a4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../allclasses-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../allpackages-index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Administrador.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/CalculadoraIVA.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Cliente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/ClienteTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/DetallePedido.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Devolucion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Inventario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/PCGestionApp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/PCGestionCucumberTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/PCGestionIntegrationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Pedido.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Producto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Reparacion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Tecnico.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/Usuario.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/testdefs/StepDefinitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/testdefs/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../com/pcgestion/testdefs/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../element-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-15.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index-files/index-9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../legal/ADDITIONAL_LICENSE_INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../legal/ASSEMBLY_EXCEPTION" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../legal/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../legal/dejavufonts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../legal/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../legal/jqueryUI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/CalculadoraIVA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/DetallePedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Devolucion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Inventario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Pedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Producto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Reparacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Tecnico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pcgestion/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pcgestion/ClienteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pcgestion/PCGestionCucumberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pcgestion/PCGestionIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pcgestion/testdefs/StepDefinitions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/com/pcgestion/calculo_precio_con_iva.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/copy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans-BoldOblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans-BoldOblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans-Oblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans-Oblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSans.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono-BoldOblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono-Oblique.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono-Oblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSansMono.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/DejaVuLGCSerif.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/fonts/dejavu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../resource-files/x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script-files/jquery-3.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script-files/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script-files/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script-files/search-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../script-files/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tag-search-index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../type-search-index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2wQ7IjhEE1TbDttycfgwrxxsPDm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PcGestionTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ClienteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PCGestionCucumberTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PCGestionIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PCGestionIntegrationTest.testFlujoDeReparacionClienteTecnico.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PcGestionIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Administrator/OneDrive/Documents/DAM/Entorns de desenvolupament/Proyecto final/PCGestion/PCGestion/src/main/java/com/pcgestion/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\OneDrive\Documents\DAM\Entorns de desenvolupament\Proyecto final\PCGestion\pcgestion\src\test\java\com\pcgestion" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pcgestion" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.pcgestion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.PCGestionCucumberTest">
+    <configuration name="PCGestionCucumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pcgestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcgestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pcgestion" />
+      <option name="MAIN_CLASS_NAME" value="com.pcgestion.PCGestionCucumberTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PCGestionIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pcgestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcgestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pcgestion" />
+      <option name="MAIN_CLASS_NAME" value="com.pcgestion.PCGestionIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PCGestionIntegrationTest.testFlujoDeReparacionClienteTecnico" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pcgestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcgestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pcgestion" />
+      <option name="MAIN_CLASS_NAME" value="com.pcgestion.PCGestionIntegrationTest" />
+      <option name="METHOD_NAME" value="testFlujoDeReparacionClienteTecnico" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PcGestionIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pcgestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcgestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pcgestion" />
+      <option name="MAIN_CLASS_NAME" value="com.pcgestion.PcGestionIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pcgestion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pcgestion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pcgestion" />
+      <option name="MAIN_CLASS_NAME" value="com.pcgestion.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PCGestionCucumberTest" />
+        <item itemvalue="JUnit.PCGestionIntegrationTest.testFlujoDeReparacionClienteTecnico" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="JUnit.PCGestionIntegrationTest" />
+        <item itemvalue="JUnit.PcGestionIntegrationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="879c8920-c793-4b95-b094-d376b89035a4" name="Changes" comment="" />
+      <created>1745961866026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745961866026</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/pcgestion/Main.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
