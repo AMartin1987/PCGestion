@@ -1,9 +1,9 @@
 <map id="com.pcgestion.Usuario" name="com.pcgestion.Usuario">
-<area shape="rect" id="Node000001" title=" " alt="" coords="218,5,373,31"/>
-<area shape="rect" id="Node000002" href="$classcom_1_1pcgestion_1_1_administrador.html" title=" " alt="" coords="5,79,196,105"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,39,135,81,133,76,247,34"/>
-<area shape="rect" id="Node000003" href="$classcom_1_1pcgestion_1_1_cliente.html" title=" " alt="" coords="220,79,371,105"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="298,46,298,79,292,79,292,46"/>
-<area shape="rect" id="Node000004" href="$classcom_1_1pcgestion_1_1_tecnico.html" title=" " alt="" coords="395,79,550,105"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="340,35,443,76,441,81,338,40"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="211,5,356,153"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1pcgestion_1_1_administrador.html" title=" " alt="" coords="5,232,185,318"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="204,165,138,233,134,230,200,162"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1pcgestion_1_1_cliente.html" title=" " alt="" coords="209,201,358,349"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="286,168,286,201,280,201,280,168"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1pcgestion_1_1_tecnico.html" title=" " alt="" coords="382,201,526,349"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="359,162,392,200,388,203,355,166"/>
 </map>

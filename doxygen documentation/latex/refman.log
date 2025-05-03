@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=latex 2025.5.3)  3 MAY 2025 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.3)  3 MAY 2025 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -83,13 +83,14 @@ Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 274.
+Package xcolor Info: Driver file: pdftex.def on input line 274.
 
-(C:\Program Files\MiKTeX\tex/latex/graphics-def\dvips.def
-File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
@@ -301,7 +302,7 @@ Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 106.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen178
 \Gin@req@width=\dimen179
@@ -315,10 +316,11 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@lly=\dimen181
 \tc@urx=\dimen182
 \tc@ury=\dimen183
-Package trimclip Info: Using driver 'tc-dvips.def'.
+Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/adjustbox\tc-dvips.def
-File: tc-dvips.def 2019/01/04 v2.2 Clipping driver for dvips
+(C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/adjustbox\tc-pdftex.de
+f
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen184
 \adjbox@Height=\dimen185
@@ -580,7 +582,7 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 ))
 (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -621,18 +623,6 @@ File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-
-! Package hyperref Error: Wrong driver option `pdftex',
-(hyperref)                because pdfTeX in PDF mode is not detected.
-
-See the hyperref package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4040 \ProcessKeyvalOptions{Hyp}
-                                 
-? r
-OK, entering \nonstopmode...
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
@@ -640,6 +630,7 @@ Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing ON on input line 4175.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
+
 (C:\Program Files\MiKTeX\tex/latex/hyperref\backref.sty
 Package: backref 2023-11-26 v1.44 Bibliographical back referencing
 
@@ -693,22 +684,14 @@ package with kernel methods
 \c@Item=\count347
 \c@Hfootnote=\count348
 )
-Package hyperref Info: Driver (default): hdvips.
+Package hyperref Info: Driver: hpdftex.
 
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hdvips.def
-File: hdvips.def 2024-11-05 v7.01l Hyperref driver for dvips
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\pdfmark.def
-File: pdfmark.def 2024-11-05 v7.01l Hyperref definitions for pdfmark specials
-\pdf@docset=\toks37
-\pdf@box=\box123
-\pdf@toks=\toks38
-\pdf@defaulttoks=\toks39
-\HyField@AnnotCount=\count349
-\Fld@listcount=\count350
-\c@bookmark@seq@number=\count351
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+\Fld@listcount=\count349
+\c@bookmark@seq@number=\count350
 \Hy@SectionHShift=\skip134
-))
+)
 Package hyperref Info: Option `colorlinks' set `true' on input line 187.
 Package hyperref Info: Option `unicode' set `true' on input line 187.
 
@@ -727,8 +710,8 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen271
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count352
-\c@continuedfloat=\count353
+\c@caption@flags=\count351
+\c@continuedfloat=\count352
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen272
 \caption@adjustwidth@linewidth=\dimen273
@@ -740,10 +723,10 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )) (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/etoc\etoc.sty
 Package: etoc 2023/10/29 v1.2d Completely customisable TOCs (JFB)
-\Etoc@toctoks=\toks40
-\c@etoc@tocid=\count354
-\etoc@framed@titlebox=\box124
-\etoc@framed@contentsbox=\box125
+\Etoc@toctoks=\toks37
+\c@etoc@tocid=\count353
+\etoc@framed@titlebox=\box123
+\etoc@framed@contentsbox=\box124
 )
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 20
 9.
@@ -754,13 +737,9 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 209.
 
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-dvips.def
-File: l3backend-dvips.def 2025-03-14 L3 backend support: dvips
-\l__pdfannot_backend_content_box=\box126
-\l__pdfannot_backend_model_box=\box127
-\g__pdfannot_backend_int=\count355
-\g__pdfannot_backend_link_int=\count356
-\g__pdfannot_backend_link_sf_int=\count357
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count354
 ) (refman.aux)
 \openout1 = `refman.aux'.
 
@@ -782,11 +761,31 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 209.
 LaTeX Font Info:    ... okay on input line 209.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 209.
 LaTeX Font Info:    ... okay on input line 209.
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count355
+\scratchdimen=\dimen274
+\scratchbox=\box125
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen275
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks39
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
 
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -839,7 +838,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 [1
 
 
-]
+{C:/Users/Administrator/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Pr
+ogram Files/MiKTeX/fonts/enc/dvips/base/8r.enc}]
 
 [2
 
@@ -913,40 +913,31 @@ Chapter 2.
 
 ]
 Chapter 3.
-(classcom_1_1pcgestion_1_1_administrador.tex
+(classcom_1_1pcgestion_1_1_administrador.tex <./classcom_1_1pcgestion_1_1_admin
+istrador__inherit__graph.pdf>
+<classcom_1_1pcgestion_1_1_administrador__inherit__graph.pdf, id=451, 215.80624
+pt x 293.095pt>
+File: classcom_1_1pcgestion_1_1_administrador__inherit__graph.pdf Graphic file 
+(type pdf)
+<use classcom_1_1pcgestion_1_1_administrador__inherit__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_administrador__inherit__grap
+h.pdf  used on input line 10.
+(pdftex.def)             Requested size: 215.0pt x 292.0075pt.
+ <./classcom_1_1pcgestion_1_1_administrador__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_administrador__coll__graph.pdf, id=466, 215.80624pt 
+x 293.095pt>
+File: classcom_1_1pcgestion_1_1_administrador__coll__graph.pdf Graphic file (ty
+pe pdf)
+<use classcom_1_1pcgestion_1_1_administrador__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_administrador__coll__graph.p
+df  used on input line 20.
+(pdftex.def)             Requested size: 215.0pt x 292.0075pt.
 
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_administrador__inherit__graph' n
-ot found.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...gestion_1_1_administrador__inherit__graph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_administrador__coll__graph' not 
-found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...1pcgestion_1_1_administrador__coll__graph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[5]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 2
 6.
-(C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
+ (C:\Users\Administrator\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
@@ -957,26 +948,32 @@ LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 54.
 
 
-[5]
+[6]
 Underfull \hbox (badness 10000) detected at line 61
 [][][]
  []
 
-) (classcom_1_1pcgestion_1_1_calculadora_i_v_a.tex
+) (classcom_1_1pcgestion_1_1_calculadora_i_v_a.tex <./classcom_1_1pcgestion_1_1
+_calculadora_i_v_a__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_calculadora_i_v_a__coll__graph.pdf, id=507, 222.8325
+pt x 130.4875pt>
+File: classcom_1_1pcgestion_1_1_calculadora_i_v_a__coll__graph.pdf Graphic file
+ (type pdf)
+<use classcom_1_1pcgestion_1_1_calculadora_i_v_a__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_calculadora_i_v_a__coll__gra
+ph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 222.0pt x 130.00134pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 18.
+(Font)              scaled to size 8.09995pt on input line 28.
 
 ! Undefined control sequence.
-l.18 ...{DoxyPre}{\ttfamily \newlineCalculadoraIVA
+l.28 ...{DoxyPre}{\ttfamily \newlineCalculadoraIVA
                                                    calculadora = new Calcula...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
+? r
+OK, entering \nonstopmode...
 ! Undefined control sequence.
-l.18 ...dora = new CalculadoraIVA();\newlinedouble
+l.28 ...dora = new CalculadoraIVA();\newlinedouble
                                                    precioFinal = calculadora...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -985,64 +982,55 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (138.75522pt too wide) in paragraph at lines 18--18
+Overfull \hbox (138.75522pt too wide) in paragraph at lines 28--28
 []  \T1/pcr/m/n/9 calculadora = new CalculadoraIVA(); precioFinal = calculadora
 .calcularPrecioConIVA(100.0); // Devuelve 121.0 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 21
+Underfull \hbox (badness 10000) detected at line 31
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 24
+Underfull \hbox (badness 10000) detected at line 34
 [][][]
  []
 
 
 
-[6]
-Underfull \hbox (badness 10000) detected at line 43
+[7]
+Underfull \hbox (badness 10000) detected at line 53
 [][][]
  []
 
-) (classcom_1_1pcgestion_1_1_cliente.tex
+) (classcom_1_1pcgestion_1_1_cliente.tex <./classcom_1_1pcgestion_1_1_cliente__
+inherit__graph.pdf>
+<classcom_1_1pcgestion_1_1_cliente__inherit__graph.pdf, id=533, 192.72pt x 339.
+2675pt>
+File: classcom_1_1pcgestion_1_1_cliente__inherit__graph.pdf Graphic file (type 
+pdf)
+<use classcom_1_1pcgestion_1_1_cliente__inherit__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_cliente__inherit__graph.pdf 
+ used on input line 10.
+(pdftex.def)             Requested size: 192.0pt x 337.99834pt.
+ <./classcom_1_1pcgestion_1_1_cliente__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_cliente__coll__graph.pdf, id=548, 192.72pt x 339.267
+5pt>
+File: classcom_1_1pcgestion_1_1_cliente__coll__graph.pdf Graphic file (type pdf
+)
+<use classcom_1_1pcgestion_1_1_cliente__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_cliente__coll__graph.pdf  us
+ed on input line 20.
+(pdftex.def)             Requested size: 192.0pt x 337.99834pt.
 
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_cliente__inherit__graph' not fou
-nd.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ..._1_1pcgestion_1_1_cliente__inherit__graph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_cliente__coll__graph' not found.
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...com_1_1pcgestion_1_1_cliente__coll__graph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[8]
 ! Undefined control sequence.
 l.59 \begin{DoxyPre}{\ttfamily \newlineCliente
                                                cliente = new Cliente("{}Ana"...
@@ -1073,6 +1061,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--59
  []
 
 
+
+[9]
 Underfull \hbox (badness 10000) detected at line 62
 [][][]
  []
@@ -1082,54 +1072,84 @@ Underfull \hbox (badness 10000) detected at line 65
 [][][]
  []
 
+ <./classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c_icgraph
+.pdf>
+<classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c_icgraph.pd
+f, id=596, 400.49625pt x 111.41624pt>
+File: classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c_icgra
+ph.pdf Graphic file (type pdf)
+<use classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3eaa6d04ea6c_icgrap
+h.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13a
+f3eaa6d04ea6c_icgraph.pdf  used on input line 109.
+(pdftex.def)             Requested size: 350.0pt x 97.37337pt.
 
 
-[7]
-
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_cliente_aa62a628af877732c13af3ea
-a6d04ea6c_icgraph' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...a62a628af877732c13af3eaa6d04ea6c_icgraph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
+[10]
 Underfull \hbox (badness 10000) detected at line 120
 [][][]
  []
 
+ <./classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c_cgraph.
+pdf>
+<classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c_cgraph.pdf
+, id=613, 406.51875pt x 111.41624pt>
+File: classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c_cgrap
+h.pdf Graphic file (type pdf)
+<use classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7b99c92a9c_cgraph
+.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d582
+60d7b99c92a9c_cgraph.pdf  used on input line 154.
+(pdftex.def)             Requested size: 350.0pt x 95.93pt.
+) (classcom_1_1pcgestion_1_1_cliente_test.tex <./classcom_1_1pcgestion_1_1_clie
+nte_test__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_cliente_test__coll__graph.pdf, id=621, 211.79124pt x
+ 176.66pt>
+File: classcom_1_1pcgestion_1_1_cliente_test__coll__graph.pdf Graphic file (typ
+e pdf)
+<use classcom_1_1pcgestion_1_1_cliente_test__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_cliente_test__coll__graph.pd
+f  used on input line 10.
+(pdftex.def)             Requested size: 211.0pt x 176.00722pt.
 
 
-[8]
+[11]) (classcom_1_1pcgestion_1_1_detalle_pedido.tex <./classcom_1_1pcgestion_1_
+1_detalle_pedido__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_detalle_pedido__coll__graph.pdf, id=644, 216.81pt x 
+130.4875pt>
+File: classcom_1_1pcgestion_1_1_detalle_pedido__coll__graph.pdf Graphic file (t
+ype pdf)
+<use classcom_1_1pcgestion_1_1_detalle_pedido__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_detalle_pedido__coll__graph.
+pdf  used on input line 10.
+(pdftex.def)             Requested size: 216.0pt x 130.00731pt.
+) (classcom_1_1pcgestion_1_1_devolucion.tex <./classcom_1_1pcgestion_1_1_devolu
+cion__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_devolucion__coll__graph.pdf, id=659, 204.765pt x 160
+.6pt>
+File: classcom_1_1pcgestion_1_1_devolucion__coll__graph.pdf Graphic file (type 
+pdf)
+<use classcom_1_1pcgestion_1_1_devolucion__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_devolucion__coll__graph.pdf 
+ used on input line 10.
+(pdftex.def)             Requested size: 204.0pt x 160.009pt.
 
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_cliente_af50026cdf826bb9d58260d7
-b99c92a9c_cgraph' not found.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 ...af50026cdf826bb9d58260d7b99c92a9c_cgraph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[12]) (classcom_1_1pcgestion_1_1_inventario.tex <./classcom_1_1pcgestion_1_1_in
+ventario__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_inventario__coll__graph.pdf, id=688, 222.8325pt x 16
+0.6pt>
+File: classcom_1_1pcgestion_1_1_inventario__coll__graph.pdf Graphic file (type 
+pdf)
+<use classcom_1_1pcgestion_1_1_inventario__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_inventario__coll__graph.pdf 
+ used on input line 10.
+(pdftex.def)             Requested size: 222.0pt x 160.00165pt.
 
-) (classcom_1_1pcgestion_1_1_cliente_test.tex)
-(classcom_1_1pcgestion_1_1_detalle_pedido.tex)
-(classcom_1_1pcgestion_1_1_devolucion.tex
 
-[9]) (classcom_1_1pcgestion_1_1_inventario.tex
+[13]
 ! Undefined control sequence.
-l.24 \begin{DoxyPre}{\ttfamily \newlineInventario
+l.34 \begin{DoxyPre}{\ttfamily \newlineInventario
                                                   inventario = new Inventari...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1138,7 +1158,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.24 ...ario = new Inventario();\newlineinventario
+l.34 ...ario = new Inventario();\newlineinventario
                                                   .listarProductos();\newlin...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1147,7 +1167,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.24 ...tario.listarProductos();\newlineinventario
+l.34 ...tario.listarProductos();\newlineinventario
                                                   .buscarProductoPorNombre("...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1156,59 +1176,106 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 27
+Underfull \hbox (badness 10000) detected at line 37
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 30
-[][][]
- []
-
-
-
-[10]) (classcom_1_1pcgestion_1_1_main.tex
-
-[11]
-Underfull \hbox (badness 10000) detected at line 30
-[][][]
- []
-
-
-Underfull \hbox (badness 10000) detected at line 33
+Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
 
 
 
-[12]
+[14]) (classcom_1_1pcgestion_1_1_main.tex <./classcom_1_1pcgestion_1_1_main__co
+ll__graph.pdf>
+<classcom_1_1pcgestion_1_1_main__coll__graph.pdf, id=726, 176.66pt x 130.4875pt
+>
+File: classcom_1_1pcgestion_1_1_main__coll__graph.pdf Graphic file (type pdf)
+<use classcom_1_1pcgestion_1_1_main__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_main__coll__graph.pdf  used 
+on input line 10.
+(pdftex.def)             Requested size: 176.0pt x 130.00134pt.
 
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_main_a2b4159323ad9fd2b467e4086b8
-82c3ff_cgraph' not found.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 ..._a2b4159323ad9fd2b467e4086b882c3ff_cgraph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[15]
+Underfull \hbox (badness 10000) detected at line 40
+[][][]
+ []
 
-) (classcom_1_1pcgestion_1_1_p_c_gestion_cucumber_test.tex)
-(classcom_1_1pcgestion_1_1_p_c_gestion_integration_test.tex)
-(classcom_1_1pcgestion_1_1_pedido.tex) (classcom_1_1pcgestion_1_1_producto.tex
 
-[13]
+Underfull \hbox (badness 10000) detected at line 43
+[][][]
+ []
+
+ <./classcom_1_1pcgestion_1_1_main_a2b4159323ad9fd2b467e4086b882c3ff_cgraph.pdf
+>
+<classcom_1_1pcgestion_1_1_main_a2b4159323ad9fd2b467e4086b882c3ff_cgraph.pdf, i
+d=750, 414.54875pt x 148.555pt>
+File: classcom_1_1pcgestion_1_1_main_a2b4159323ad9fd2b467e4086b882c3ff_cgraph.p
+df Graphic file (type pdf)
+<use classcom_1_1pcgestion_1_1_main_a2b4159323ad9fd2b467e4086b882c3ff_cgraph.pd
+f>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_main_a2b4159323ad9fd2b467e40
+86b882c3ff_cgraph.pdf  used on input line 67.
+(pdftex.def)             Requested size: 350.0pt x 125.42683pt.
+
+
+[16]) (classcom_1_1pcgestion_1_1_p_c_gestion_cucumber_test.tex <./classcom_1_1p
+cgestion_1_1_p_c_gestion_cucumber_test__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_p_c_gestion_cucumber_test__coll__graph.pdf, id=772, 
+268.00125pt x 130.4875pt>
+File: classcom_1_1pcgestion_1_1_p_c_gestion_cucumber_test__coll__graph.pdf Grap
+hic file (type pdf)
+<use classcom_1_1pcgestion_1_1_p_c_gestion_cucumber_test__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_p_c_gestion_cucumber_test__c
+oll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 267.0pt x 129.99934pt.
+)
+(classcom_1_1pcgestion_1_1_p_c_gestion_integration_test.tex <./classcom_1_1pcge
+stion_1_1_p_c_gestion_integration_test__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_p_c_gestion_integration_test__coll__graph.pdf, id=78
+7, 268.00125pt x 141.52875pt>
+File: classcom_1_1pcgestion_1_1_p_c_gestion_integration_test__coll__graph.pdf G
+raphic file (type pdf)
+<use classcom_1_1pcgestion_1_1_p_c_gestion_integration_test__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_p_c_gestion_integration_test
+__coll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 267.0pt x 140.9993pt.
+
+
+[17]) (classcom_1_1pcgestion_1_1_pedido.tex <./classcom_1_1pcgestion_1_1_pedido
+__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_pedido__coll__graph.pdf, id=809, 185.69376pt x 145.5
+4375pt>
+File: classcom_1_1pcgestion_1_1_pedido__coll__graph.pdf Graphic file (type pdf)
+
+<use classcom_1_1pcgestion_1_1_pedido__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_pedido__coll__graph.pdf  use
+d on input line 10.
+(pdftex.def)             Requested size: 185.0pt x 145.00371pt.
+
+
+[18]) (classcom_1_1pcgestion_1_1_producto.tex <./classcom_1_1pcgestion_1_1_prod
+ucto__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_producto__coll__graph.pdf, id=838, 194.7275pt x 191.
+71625pt>
+File: classcom_1_1pcgestion_1_1_producto__coll__graph.pdf Graphic file (type pd
+f)
+<use classcom_1_1pcgestion_1_1_producto__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_producto__coll__graph.pdf  u
+sed on input line 10.
+(pdftex.def)             Requested size: 194.0pt x 191.00783pt.
+
+
+[19]
 ! Undefined control sequence.
-l.26 \begin{DoxyPre}{\ttfamily \newlineProducto
+l.36 \begin{DoxyPre}{\ttfamily \newlineProducto
                                                 producto = new Producto(1, "...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1217,7 +1284,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.26 ...mecánico"{}, 45.99f, 10);\newlineproducto
+l.36 ...mecánico"{}, 45.99f, 10);\newlineproducto
                                                   .actualizarStock(-\/2);\ne...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1226,7 +1293,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.26 ...ducto.actualizarStock(-\/2);\newlineSystem
+l.36 ...ducto.actualizarStock(-\/2);\newlineSystem
                                                   .out.println(producto.getN...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1235,143 +1302,170 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (235.95511pt too wide) in paragraph at lines 26--26
+Overfull \hbox (235.95511pt too wide) in paragraph at lines 36--36
 []  \T1/pcr/m/n/9 producto = new Producto(1, "Teclado", "Teclado mec�nico", 45.
 99f, 10);.actualizarStock(-2);.out.println(producto.getNombre()); 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
 
  []
 
 
-Underfull \hbox (badness 10000) detected at line 29
+Underfull \hbox (badness 10000) detected at line 39
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 32
+Underfull \hbox (badness 10000) detected at line 42
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 40.
+(Font)              scaled to size 7.19995pt on input line 50.
 
 
-[14]
-Underfull \hbox (badness 10000) detected at line 89
+[20]
+Underfull \hbox (badness 10000) detected at line 99
 [][][]
  []
 
-
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8
-608548108b_icgraph' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 ...ace5ac063b35f88c7a4bbf8608548108b_icgraph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-
-[15]) (classcom_1_1pcgestion_1_1_reparacion.tex
-
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_reparacion_aca12aa717416faa495c9
-d51ce5560f31_icgraph' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 ...aca12aa717416faa495c9d51ce5560f31_icgraph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (classcom_1_1pcgestion_1_1testdefs_1_1_step_definitions.tex
-
-[16]) (classcom_1_1pcgestion_1_1_tecnico.tex
-
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_tecnico__inherit__graph' not fou
-nd.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ..._1_1pcgestion_1_1_tecnico__inherit__graph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ <./classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b_icgrap
+h.pdf>
+<classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b_icgraph.p
+df, id=877, 406.51875pt x 111.41624pt>
+File: classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b_icgr
+aph.pdf Graphic file (type pdf)
+<use classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4bbf8608548108b_icgra
+ph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_producto_ace5ac063b35f88c7a4
+bbf8608548108b_icgraph.pdf  used on input line 107.
+(pdftex.def)             Requested size: 350.0pt x 95.93pt.
+) (classcom_1_1pcgestion_1_1_reparacion.tex <./classcom_1_1pcgestion_1_1_repara
+cion__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_reparacion__coll__graph.pdf, id=885, 204.765pt x 221
+.82875pt>
+File: classcom_1_1pcgestion_1_1_reparacion__coll__graph.pdf Graphic file (type 
+pdf)
+<use classcom_1_1pcgestion_1_1_reparacion__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_reparacion__coll__graph.pdf 
+ used on input line 10.
+(pdftex.def)             Requested size: 204.0pt x 221.01244pt.
 
 
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_tecnico__coll__graph' not found.
+[21] <./classcom_1_1pcgestion_1_1_reparacion_aca12aa717416faa495c9d51ce5560f31_
+icgraph.pdf>
+<classcom_1_1pcgestion_1_1_reparacion_aca12aa717416faa495c9d51ce5560f31_icgraph
+.pdf, id=910, 414.54875pt x 99.37125pt>
+File: classcom_1_1pcgestion_1_1_reparacion_aca12aa717416faa495c9d51ce5560f31_ic
+graph.pdf Graphic file (type pdf)
+<use classcom_1_1pcgestion_1_1_reparacion_aca12aa717416faa495c9d51ce5560f31_icg
+raph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_reparacion_aca12aa717416faa4
+95c9d51ce5560f31_icgraph.pdf  used on input line 58.
+(pdftex.def)             Requested size: 350.0pt x 83.90038pt.
 
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...com_1_1pcgestion_1_1_tecnico__coll__graph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (classcom_1_1pcgestion_1_1_usuario.tex
-
-! LaTeX Error: File `classcom_1_1pcgestion_1_1_usuario__inherit__graph' not fou
-nd.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ..._1_1pcgestion_1_1_usuario__inherit__graph}
-                                                  
-I could not locate the file with any of these extensions:
-.eps,.ps,.eps.gz,.ps.gz,.eps.Z,.mps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[22]) (classcom_1_1pcgestion_1_1testdefs_1_1_step_definitions.tex <./classcom_1
+_1pcgestion_1_1testdefs_1_1_step_definitions__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1testdefs_1_1_step_definitions__coll__graph.pdf, id=93
+9, 213.79875pt x 205.76875pt>
+File: classcom_1_1pcgestion_1_1testdefs_1_1_step_definitions__coll__graph.pdf G
+raphic file (type pdf)
+<use classcom_1_1pcgestion_1_1testdefs_1_1_step_definitions__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1testdefs_1_1_step_definitions
+__coll__graph.pdf  used on input line 10.
+(pdftex.def)             Requested size: 213.0pt x 204.99898pt.
+)
+(classcom_1_1pcgestion_1_1_tecnico.tex <./classcom_1_1pcgestion_1_1_tecnico__in
+herit__graph.pdf>
+<classcom_1_1pcgestion_1_1_tecnico__inherit__graph.pdf, id=954, 189.70876pt x 3
+39.2675pt>
+File: classcom_1_1pcgestion_1_1_tecnico__inherit__graph.pdf Graphic file (type 
+pdf)
+<use classcom_1_1pcgestion_1_1_tecnico__inherit__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_tecnico__inherit__graph.pdf 
+ used on input line 10.
+(pdftex.def)             Requested size: 189.0pt x 338.0087pt.
 
 
+[23] <./classcom_1_1pcgestion_1_1_tecnico__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_tecnico__coll__graph.pdf, id=980, 189.70876pt x 339.
+2675pt>
+File: classcom_1_1pcgestion_1_1_tecnico__coll__graph.pdf Graphic file (type pdf
+)
+<use classcom_1_1pcgestion_1_1_tecnico__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_tecnico__coll__graph.pdf  us
+ed on input line 20.
+(pdftex.def)             Requested size: 189.0pt x 338.0087pt.
 
-[17]
-Underfull \hbox (badness 10000) detected at line 47
+
+[24]) (classcom_1_1pcgestion_1_1_usuario.tex <./classcom_1_1pcgestion_1_1_usuar
+io__inherit__graph.pdf>
+<classcom_1_1pcgestion_1_1_usuario__inherit__graph.pdf, id=1007, 472.76625pt x 
+339.2675pt>
+File: classcom_1_1pcgestion_1_1_usuario__inherit__graph.pdf Graphic file (type 
+pdf)
+<use classcom_1_1pcgestion_1_1_usuario__inherit__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_usuario__inherit__graph.pdf 
+ used on input line 10.
+(pdftex.def)             Requested size: 350.0pt x 251.17308pt.
+
+
+[25] <./classcom_1_1pcgestion_1_1_usuario__coll__graph.pdf>
+<classcom_1_1pcgestion_1_1_usuario__coll__graph.pdf, id=1035, 189.70876pt x 191
+.71625pt>
+File: classcom_1_1pcgestion_1_1_usuario__coll__graph.pdf Graphic file (type pdf
+)
+<use classcom_1_1pcgestion_1_1_usuario__coll__graph.pdf>
+Package pdftex.def Info: classcom_1_1pcgestion_1_1_usuario__coll__graph.pdf  us
+ed on input line 20.
+(pdftex.def)             Requested size: 189.0pt x 191.00491pt.
+
+
+[26]
+Underfull \hbox (badness 10000) detected at line 57
 [][][]
  []
 
 )
 
-[18]
+[27]
+
+[28
+
+]
 No file refman.ind.
 (refman.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `refman.out' has not changed.
 (rerunfilecheck)             Checksum: BBF40FF20C5A0D639CADDB9EF2260928;15968.
  ) 
 Here is how much of TeX's memory you used:
- 18088 strings out of 469959
- 309141 string characters out of 5479883
- 734583 words of memory out of 5000000
- 44537 multiletter control sequences out of 15000+600000
- 662903 words of font info for 90 fonts, out of 8000000 for 9000
+ 18767 strings out of 469958
+ 324069 string characters out of 5479857
+ 715586 words of memory out of 5000000
+ 44988 multiletter control sequences out of 15000+600000
+ 676819 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,16n,117p,466b,743s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,466b,749s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files
+/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1
+/urw/courier/ucrro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb
+8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (32 pages, 463132 bytes).
+PDF statistics:
+ 1150 PDF objects out of 1200 (max. 8388607)
+ 216 named destinations out of 1000 (max. 500000)
+ 686 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on refman.dvi (22 pages, 177128 bytes).

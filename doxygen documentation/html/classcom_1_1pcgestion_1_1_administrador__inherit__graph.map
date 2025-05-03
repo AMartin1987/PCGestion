@@ -1,5 +1,5 @@
 <map id="com.pcgestion.Administrador" name="com.pcgestion.Administrador">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,79,196,105"/>
-<area shape="rect" id="Node000002" href="$classcom_1_1pcgestion_1_1_usuario.html" title=" " alt="" coords="23,5,178,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,46,103,79,98,79,98,46"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,201,185,288"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1pcgestion_1_1_usuario.html" title=" " alt="" coords="23,5,168,153"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,168,98,201,92,201,92,168"/>
 </map>
